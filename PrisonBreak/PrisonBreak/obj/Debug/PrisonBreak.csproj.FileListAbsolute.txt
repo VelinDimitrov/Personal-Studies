@@ -1,0 +1,14 @@
+C:\Users\bgrul\Desktop\PrisonBreak\PrisonBreak\bin\Debug\PrisonBreak.exe.config
+C:\Users\bgrul\Desktop\PrisonBreak\PrisonBreak\bin\Debug\PrisonBreak.exe
+C:\Users\bgrul\Desktop\PrisonBreak\PrisonBreak\bin\Debug\PrisonBreak.pdb
+C:\Users\bgrul\Desktop\PrisonBreak\PrisonBreak\obj\Debug\PrisonBreak.csprojResolveAssemblyReference.cache
+C:\Users\bgrul\Desktop\PrisonBreak\PrisonBreak\obj\Debug\PrisonBreak.csproj.CoreCompileInputs.cache
+C:\Users\bgrul\Desktop\PrisonBreak\PrisonBreak\obj\Debug\PrisonBreak.exe
+C:\Users\bgrul\Desktop\PrisonBreak\PrisonBreak\obj\Debug\PrisonBreak.pdb
+C:\Users\bgrul\Desktop\FMI-Plovdiv\first year\first year third trimester-Algorithms and Data structures\PrisonBreak\PrisonBreak\bin\Debug\PrisonBreak.exe.config
+C:\Users\bgrul\Desktop\FMI-Plovdiv\first year\first year third trimester-Algorithms and Data structures\PrisonBreak\PrisonBreak\bin\Debug\PrisonBreak.exe
+C:\Users\bgrul\Desktop\FMI-Plovdiv\first year\first year third trimester-Algorithms and Data structures\PrisonBreak\PrisonBreak\bin\Debug\PrisonBreak.pdb
+C:\Users\bgrul\Desktop\FMI-Plovdiv\first year\first year third trimester-Algorithms and Data structures\PrisonBreak\PrisonBreak\obj\Debug\PrisonBreak.csprojResolveAssemblyReference.cache
+C:\Users\bgrul\Desktop\FMI-Plovdiv\first year\first year third trimester-Algorithms and Data structures\PrisonBreak\PrisonBreak\obj\Debug\PrisonBreak.csproj.CoreCompileInputs.cache
+C:\Users\bgrul\Desktop\FMI-Plovdiv\first year\first year third trimester-Algorithms and Data structures\PrisonBreak\PrisonBreak\obj\Debug\PrisonBreak.exe
+C:\Users\bgrul\Desktop\FMI-Plovdiv\first year\first year third trimester-Algorithms and Data structures\PrisonBreak\PrisonBreak\obj\Debug\PrisonBreak.pdb
