@@ -8,7 +8,7 @@ namespace PrisonBreak
 {
     class Program
     {
-        public static readonly int BOARD_SIZE = 15;
+        public static readonly int BOARD_SIZE = 10;
         public static int[,] board;
 
         private static bool foundExit = false;        
@@ -94,7 +94,7 @@ namespace PrisonBreak
                 //find and remove all unnecessary doors which do not block Exit
                 if (IsExitAvailable(startX, startY, NO_VALUE, NO_VALUE, checkingDoorsBoard, out possibleX, out possibleY))
                 {
-                    if (possibleX == endX && possibleY == endY)
+                    if (possibleX != -1 && possibleY != -1)
                     {
                         doorPositions.Remove(new KeyValuePair<int, int>(door.Key, door.Value));
                     }
