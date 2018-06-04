@@ -1,7 +1,11 @@
 package com.udemy.spring;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -33,6 +37,15 @@ public class TennisCoach implements Coach {
 		System.out.println("Inside setter");
 		this.fortune = fortune;
 	}*/
+	@PostConstruct
+	public void initializingMethod() {
+		System.out.println("Init method entered");
+	}
+	
+	@PreDestroy
+	public void cleanUp() {
+		System.out.println("Clean up destroy method");
+	} 
 	
 	@Override
 	public String getDailyFortune() {
