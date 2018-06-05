@@ -8,10 +8,11 @@ public class MainJavaConfigDemo {
 		AnnotationConfigApplicationContext context=
 				new AnnotationConfigApplicationContext(ConfigurationClass.class);
 		
-		Coach theCoach=context.getBean("swimCoach",Coach.class);
+		SwimCoach theCoach=context.getBean("swimCoach",SwimCoach.class);
 		
 		System.out.println(theCoach.getDailyWorkout()+"\n"+theCoach.getDailyFortune());
 		
+		System.out.println(theCoach.getSkill()+"\n"+theCoach.getTeam());
 		context.close();
 		
 	}
