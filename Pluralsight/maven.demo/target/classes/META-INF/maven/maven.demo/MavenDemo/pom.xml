@@ -4,4 +4,20 @@
   <artifactId>MavenDemo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>commons-lang</groupId>
+  		<artifactId>commons-lang</artifactId>
+  		<version>2.1</version>
+  	</dependency>
+  	
+  	<dependency>
+  		<groupId></groupId>
+  		<artifactID></artifactID>
+  		<version></version>
+  	</dependency>
+  	
+  </dependencies>
+
 </project>
