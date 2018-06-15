@@ -5,19 +5,91 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   
+    <repositories>
+  	<repository>
+  		<id>spring-snapshot</id>
+  		<name>Maven SNAPSHOT repository</name>
+  		<url>http://repo.springsource.org/libs-snapshot</url>
+  		<snapshots>
+  			<enabled>true</enabled>
+  		</snapshots>
+  		<releases>
+  			<enabled>false</enabled>
+  		</releases>
+  	</repository>
+  </repositories>
+  
+  <build>
+  	<plugins>
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-compiler-plugin</artifactId>
+  			<version>2.3.1</version>
+  			<configuration>
+  				<source>1.8</source>
+  				<target>1.8</target>
+  			</configuration>
+  		</plugin>
+  		
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-jar-plugin</artifactId>
+  			<version>2.4</version>
+  			<configuration>
+  				<useDefaultManifestFile>true</useDefaultManifestFile>
+  			</configuration>
+  		</plugin>
+  		
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-source-plugin</artifactId>
+  			<version>2.2.1</version>
+  			<executions>
+  				<execution>
+  					<id>attach-sourcecode</id>
+  					<phase>verify</phase>
+  					<goals>
+  						<goal>jar</goal>
+  					</goals>
+  				</execution>
+  			</executions>
+  		</plugin>
+  		
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-javadoc-plugin</artifactId>
+  			<version>2.9</version>
+  			<executions>
+  				<execution>
+  					<id>attach-javadocs</id>
+  					<phase>verify</phase>
+  					<goals>
+  						<goal>jar</goal>
+  					</goals>
+  				</execution>
+  			</executions>
+  		</plugin>
+  	</plugins>  	
+  </build>
+  
   <dependencies>
   	<dependency>
   		<groupId>commons-lang</groupId>
   		<artifactId>commons-lang</artifactId>
   		<version>2.1</version>
   	</dependency>
-  	
+  
   	<dependency>
-  		<groupId></groupId>
-  		<artifactID></artifactID>
-  		<version></version>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.10</version>
+  		<scope>test</scope>
   	</dependency>
   	
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-core</artifactId>
+  		<version>3.2.0.BUILD-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
-
 </project>
